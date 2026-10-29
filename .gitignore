@@ -1,0 +1,69 @@
+# Build output
+build/
+out/
+bin/
+obj/
+cmake-build-*/
+
+# Compiled objects and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.d
+
+# Executables and firmware artifacts
+*.exe
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.srec
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# Test, coverage, and sanitizer output
+*.gcda
+*.gcno
+*.gcov
+coverage/
+*.profraw
+*.profdata
+*.log
+
+# Debug artifacts
+core
+core.*
+*.dSYM/
+*.pdb
+
+# Python (if you have helper scripts)
+__pycache__/
+*.pyc
+.venv/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local config and secrets
+.env
+*.local
